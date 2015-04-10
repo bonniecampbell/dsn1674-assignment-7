@@ -1,5 +1,6 @@
 html{
 box-sizing: border-box;
+font-family: 'Dosis', sans-serif;
 
 }
 
@@ -30,4 +31,24 @@ img {
   background-color: #6FC000;
   border-radius: 10px;
   background-image: linear-gradient(to bottom,#6FC000,#388200);
+}
+
+.ant-nest-beetle {
+  float: left;
+  width: 50%
+}
+
+.stag-beetle {
+  float: right;
+  width: 50%
+}
+
+.dung-beetle {
+  float: left;
+  width: 50%
+}
+
+.tortise-beetle {
+  float: right;
+  width: 50%
 }
