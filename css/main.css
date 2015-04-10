@@ -7,6 +7,9 @@ font-family: 'Dosis', sans-serif;
 *,*::before, *::after{
   box-sizing: inherit;
 }
+body{
+  margin: 0;
+}
 
 img {
   width: 100%;
@@ -15,13 +18,18 @@ img {
 
 .masthead {
   background-image: url("../images/noun_59034_cc.svg"), url("../images/noun_59034_cc2.svg"), url("../images/masthead-bg.png");
-  padding-top: 6em;
-  background-size: 75px auto, 75px auto, 200px auto;
+  background-size: 50px auto, 50px auto, 200px auto;
   background-repeat: no-repeat, no-repeat, repeat;
-  background-position: right center, left center, left top;
+  background-position: right 20px, left 20px, left top;
   text-align: center;
+  font-size: 1.5em;
+  position: relative;
 }
 
+h1{
+  margin: 0;
+  padding-top: 20px;
+}
 .button {
   display: inline-block;
   padding: 0.5em 0.75em;
@@ -31,24 +39,87 @@ img {
   background-color: #6FC000;
   border-radius: 10px;
   background-image: linear-gradient(to bottom,#6FC000,#388200);
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%)
 }
 
 .ant-nest-beetle {
   float: left;
-  width: 50%
+  width: 50%;
+  position: relative;
 }
 
 .stag-beetle {
   float: right;
-  width: 50%
+  width: 50%;
+  position: relative;
 }
 
 .dung-beetle {
   float: left;
-  width: 50%
+  width: 50%;
+  position: relative;
 }
 
-.tortise-beetle {
+.tortoise-beetle {
   float: right;
-  width: 50%
+  width: 50%;
+  position: relative;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(90,42,42,0.5);
+  bottom: 0;
+}
+nav ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+}
+nav a {
+  font-size: 0.7em;
+  margin: 0;
+  padding: 0.5em;
+  color:white;
+  text-decoration: none;
+  display: block;
+}
+
+.dirt {
+  overflow: hidden;
+  position: relative;
+
+}
+
+.beetles {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+  position: absolute;
+  text-align: center;
+  font-size: 1.5em;
+
+
+}
+
+.rocks{
+
+}
+
+nav a:hover {
+  background-color: #512200;
 }
