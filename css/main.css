@@ -123,3 +123,14 @@ nav a {
 nav a:hover {
   background-color: #512200;
 }
+
+footer{
+  text-aling: center;
+  backgroud-colour: #998675;
+}
+
+.footerbug {
+  display: inline;
+  height: 3em;
+  opacity: 1;
+}
